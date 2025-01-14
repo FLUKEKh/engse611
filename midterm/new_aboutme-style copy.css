@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgb(245, 172, 15);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border: 2px solid black;
+}
+header {
+    background-color: rgb(245, 172, 15); 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border: 2px solid black;
+}
+
+
+.content, .moods {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.box {
+    background-color: rgb(255, 242, 204);
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid black;
+    flex: 1;
+    text-align: center;
+}
+
+.happy {
+    background-color: rgb(213, 232, 212);
+}
+
+.sad {
+    background-color: rgb(213, 232, 212); 
+}
+
+.neighbors {
+    background-color: rgb(213, 232, 212); 
+}
+h1 {
+    color: #00e9fe;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    color: #00e9fe;
+    font-size: 1.8em;
+    border-bottom: 1px solid #fff;
+    border-bottom: 5px;
+}
+p {
+    color: #3e8c8f;
+}
+ul, ol {
+    margin-left: 65px;
+    color: #3e8c8f;
+}
+
+img {
+    border: 2px solid #00e9fe;
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+    height: auto;
+}
+#Happy, #Sad {
+    color: #3e8c8f;
+    font-weight: bold;
+}
+
+#neighbors {
+    color: #00e9fe;
+}
