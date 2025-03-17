@@ -1,5 +1,5 @@
 body {
-  background-color: #e3f2fd;
+  background-image: #e3f2fd;
   font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
@@ -65,7 +65,7 @@ li {
 
 li.completed span {
   text-decoration: line-through;
-  color: #616161;
+  color: #ff0000;
 }
 
 button.delete {

@@ -12,7 +12,7 @@ function addTodo() {
         return;
     }
     
-    if (todoText.length > 50) {
+    if (todoText.length > 50) {     //เช็คความยาวของข้อความต้องไม่เกิน 50 characters
         alert("Task must be 50 characters or less!");
         return;
     }

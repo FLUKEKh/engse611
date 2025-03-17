@@ -20,6 +20,12 @@ function handleClick(event) {
             resetBoard();
             return;
         }
+        if (!board.includes("")) {  // ตรวจสอบว่าเต็มบอร์ดหรือไม่
+            alert("It's a tie!");
+            resetBoard();
+            return;
+        }
+
         currentPlayer = currentPlayer === "X" ? "O" : "X";
     }
 }
@@ -48,6 +54,14 @@ function resetBoard() {
     });
     currentPlayer = "X";
 }
+
+function resetGame() {     // รีเซ็ตคะแนน
+    scores = { X: 0, O: 0 };
+    updateScoreboard();
+    resetBoard();
+}
+resetButton.addEventListener("click", resetGame);
+
 
 boxes.forEach(box => box.addEventListener("click", handleClick));
 resetButton.addEventListener("click", resetBoard);
